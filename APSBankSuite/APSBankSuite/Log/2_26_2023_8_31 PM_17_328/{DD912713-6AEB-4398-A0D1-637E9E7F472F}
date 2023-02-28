@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row2">
+				<Prp name="start time" type="D" value="44983.8596913889"/>
+				<Prp name="end time" type="D" value="44983.8599498611"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="details" type="S" value="{AB0078E5-FD67-4EF3-B05D-34C6F36288D1}"/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="name" type="S" value=" Username and Physical Token&#xA; [Script\UsernameandPhysicalToken - UsernameandPhysicalToken]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="start time" type="D" value="44983.8577724884"/>
+				<Prp name="end time" type="D" value="44983.8592102546"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="details" type="S" value="{A216B74B-6D0A-4AD7-B370-4F5723084E9C}"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="name" type="S" value="Script Test Log [LogIn\LogIn]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="start time" type="D" value="44983.8599500347"/>
+				<Prp name="end time" type="D" value="44983.8604405324"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="details" type="S" value="{506C84F0-B0BD-44EB-B8B9-248E86965BF2}"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="name" type="S" value="LogIn Guide ? [Script\LogIn_Guide - LogIn_Guide]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="start time" type="D" value="44983.8592102546"/>
+				<Prp name="end time" type="D" value="44983.8596912037"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="details" type="S" value="{64690302-EE7A-4929-B30A-0A2B1D6B0691}"/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="name" type="S" value=" Username and Mobile App [Script\UsernameandMobileApp - UsernameandMobileApp]"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

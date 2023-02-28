@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{720ED2CD-E1F0-4E68-AE6D-F62C8DFBDE53}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44984.7828587963" objectName="Aliases.browser.pageApsBankMalta.panelAnytimeAnywhere2.panelAnytimeAnywhere.panel1.panel" objectLeft="0" objectTop="88" objectRight="1579" objectBottom="1113" clickPointX="839" clickPointY="465" imageFileName="tcvi34250482857241.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44984.7830555556" objectName="Aliases.browser.pageApsBankMalta.buttonSignUp2" objectLeft="1042" objectTop="372" objectRight="1183" objectBottom="430" clickPointX="1084" clickPointY="412" imageFileName="tcvi34252087557242.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44984.7831712963" objectName="Aliases.browser.pageApsBankMalta.panelSignUp.panel" objectLeft="503" objectTop="566" objectRight="524" objectBottom="587" clickPointX="509" clickPointY="576" imageFileName="tcvi34253129657244.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44984.7831828704" objectName="Aliases.browser.pageApsBankMalta.panelSignUp.buttonNext" objectLeft="959" objectTop="605" objectRight="1072" objectBottom="651" clickPointX="1021" clickPointY="635" imageFileName="tcvi34253278157245.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="9" kind="0" dateTime="44984.783275463" objectName="Aliases.browser.pageApsBankMalta.panelSignUp.buttonClose" objectLeft="1054" objectTop="237" objectRight="1078" objectBottom="260" clickPointX="1066" clickPointY="247" imageFileName="tcvi34254000057247.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

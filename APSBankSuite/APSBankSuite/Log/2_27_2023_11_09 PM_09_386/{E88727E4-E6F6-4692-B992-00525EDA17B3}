@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="520"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.panelSignUp.buttonOk"/>
+					<Prp name="object right" type="I" value="1144"/>
+					<Prp name="object top" type="I" value="495"/>
+					<Prp name="image file name" type="S" value="visImage18.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1070"/>
+					<Prp name="object bottom" type="I" value="546"/>
+					<Prp name="datetime" type="D" value="44984.9239563773"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1107"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage18_Dif.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="515"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.panelSignUp.buttonOk"/>
+					<Prp name="object right" type="I" value="1144"/>
+					<Prp name="object top" type="I" value="494"/>
+					<Prp name="image file name" type="S" value="tcvi350665328202004.png"/>
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1070"/>
+					<Prp name="object bottom" type="I" value="545"/>
+					<Prp name="datetime" type="D" value="44984.8773148148"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1097"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44984.9656248727"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageApsBankMalta.panelSignUp.buttonOk&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&quot;, 1).Panel(2).Panel(1).Panel(0).Button(0))"/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="811"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.buttonLogIn3"/>
+					<Prp name="object right" type="I" value="1353"/>
+					<Prp name="object top" type="I" value="782"/>
+					<Prp name="image file name" type="S" value="visImage17.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1212"/>
+					<Prp name="object bottom" type="I" value="840"/>
+					<Prp name="datetime" type="D" value="44984.9239455324"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1282"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage17_Dif.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="709"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.buttonLogIn3"/>
+					<Prp name="object right" type="I" value="1353"/>
+					<Prp name="object top" type="I" value="683"/>
+					<Prp name="image file name" type="S" value="tcvi350661562202002.png"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1212"/>
+					<Prp name="object bottom" type="I" value="741"/>
+					<Prp name="datetime" type="D" value="44984.8772685185"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1274"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44984.9656143519"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageApsBankMalta.buttonLogIn3&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&quot;, 1).Panel(&quot;render_wrapper&quot;).Panel(&quot;pageHost&quot;).Panel(0).Panel(0).Panel(&quot;zone_2&quot;).Panel(0).Panel(&quot;widget&quot;).Panel(0).Panel(4).Panel(0).Panel(0).Panel(&quot;panelUsernameOTP&quot;).Panel(3).Button(1))"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="560"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.textbox3"/>
+					<Prp name="object right" type="I" value="1355"/>
+					<Prp name="object top" type="I" value="528"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1042"/>
+					<Prp name="object bottom" type="I" value="596"/>
+					<Prp name="datetime" type="D" value="44984.9239173611"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1090"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage15_Dif.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="435"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.textbox3"/>
+					<Prp name="object right" type="I" value="1355"/>
+					<Prp name="object top" type="I" value="403"/>
+					<Prp name="image file name" type="S" value="tcvi350659156202000.png"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1042"/>
+					<Prp name="object bottom" type="I" value="471"/>
+					<Prp name="datetime" type="D" value="44984.8772453704"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1091"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44984.9655873148"/>
+			<Prp name="remarks" type="S" value="A click at point (39, 26) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageApsBankMalta.textbox3&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&quot;, 1).Panel(&quot;render_wrapper&quot;).Panel(&quot;pageHost&quot;).Panel(0).Panel(0).Panel(&quot;zone_2&quot;).Panel(0).Panel(&quot;widget&quot;).Panel(0).Panel(4).Panel(0).Panel(0).Panel(&quot;panelUsernameOTP&quot;).Textbox(0))"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="682"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.passwordbox2"/>
+					<Prp name="object right" type="I" value="1355"/>
+					<Prp name="object top" type="I" value="645"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1042"/>
+					<Prp name="object bottom" type="I" value="713"/>
+					<Prp name="datetime" type="D" value="44984.9239258565"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1099"/>
+				</Node>
+				<Node name="diff">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="-1"/>
+				</Node>
+				<Node name="original">
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point y" type="I" value="558"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.passwordbox2"/>
+					<Prp name="object right" type="I" value="1355"/>
+					<Prp name="object top" type="I" value="520"/>
+					<Prp name="image file name" type="S" value="tcvi350660265202001.png"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="1042"/>
+					<Prp name="object bottom" type="I" value="588"/>
+					<Prp name="datetime" type="D" value="44984.8772569444"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point x" type="I" value="1100"/>
+				</Node>
+			</Node>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44984.9655940741"/>
+			<Prp name="remarks" type="S" value="A click at point (46, 30) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageApsBankMalta.passwordbox2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&quot;, 1).Panel(&quot;render_wrapper&quot;).Panel(&quot;pageHost&quot;).Panel(0).Panel(0).Panel(&quot;zone_2&quot;).Panel(0).Panel(&quot;widget&quot;).Panel(0).Panel(4).Panel(0).Panel(0).Panel(&quot;panelUsernameOTP&quot;).PasswordBox(0))"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{5B260257-6AA6-47C7-A692-8CCE7CBD0856}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="date" type="D" value="44984.9655027778"/>
+			<Prp name="remarks" type="S" value="URL: https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&#xA;&#xA;Aliases.browser"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="message" type="S" value="Navigating to the https://ebank.apsbank.com.mt/Omni/Retail/home/login... page."/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child data"/>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="161"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="83"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.panelAnytimeAnywhere.button1"/>
+					<Prp name="datetime" type="D" value="44983.8145379745"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object right" type="I" value="91"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="object bottom" type="I" value="169"/>
+					<Prp name="object left" type="I" value="76"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="154"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="date" type="D" value="44983.8562068287"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageApsBankMalta.panelAnytimeAnywhere.button1&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&quot;).Panel(&quot;render_wrapper&quot;).Panel(&quot;pageHost&quot;).Panel(0).Panel(0).Panel(&quot;zone&quot;).Panel(0).Panel(&quot;widget&quot;).Panel(0).Panel(4).Panel(0).Panel(0).Panel(0).Panel(0).Button(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="picture" type="S" value="Picture6.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="date" type="D" value="44983.8562020255"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageApsBankMalta.&amp;#8203;panelRenderWrapper.&amp;#8203;panelPagehost.&amp;#8203;&lt;a href=&quot;namemapping://{1DF96EA5-2F52-4C6D-84FD-307D6EAC790B}.{DE7A8EAB-24EC-4C61-AF7A-806E32013CA2}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;panelAnytimeAnywhere&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;ObjectType&lt;/td&gt;&lt;td&gt;Panel&lt;/td&gt;&lt;td&gt;Panel&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectIdentifier&lt;/td&gt;&lt;td&gt;HTML&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAEAYgAA16gAAQB0AAB1AAcAcHJvamVjdAEAJAAxREY5NkVBNXgyRjUy&#xA;eDRDNkR4ODRGRHgzMDdENkVBQzc5MEIJAHByb3Bjb3VudAAAAgAHAHBpY2ZpbGUBACoAezJGQUM4&#xA;NzdBLTlBODItNDkzMS05N0FDLTM1QTJFODc0RURGQ30ucG5nBAB0eXBlAQALAFJlY29nbml0aW9u&#xA;BgBjb25maWcBABUARGVmYXVsdCBDb25maWd1cmF0aW9uAQByAADdsgABAGwAAAsABABtb2RlAAAA&#xA;AAIAbm0BACQAREU3QThFQUJ4MjRFQ3g0QzYxeEFGN0F4ODA2RTMyMDEzQ0EyBAAGAHZhbHVlcwIA&#xA;AQAwAQAVAEA1MDAwNjEwMDZFMDA2NTAwNkMwMAEAMQEAEQBANDgwMDU0MDA0RDAwNEMwMAAACwBm&#xA;b3VuZHZhbHVlcwIAAQAwAQAVAEA1MDAwNjEwMDZFMDA2NTAwNkMwMAEAMQEAMAAwMzAwMDAwMDAw&#xA;MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAAAAcAbWF0Y2hlZAIAAQAwAADv&#xA;v7/nv78BADEAAAEAAAAFAG5hbWVzAgABADABAAoAT2JqZWN0VHlwZQEAMQEAEABPYmplY3RJZGVu&#xA;dGlmaWVyAAA=&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="picture" type="S" value="Picture4.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="date" type="D" value="44983.8559055093"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageApsBankMalta.&amp;#8203;panelRenderWrapper.&amp;#8203;panelPagehost.&amp;#8203;&lt;a href=&quot;namemapping://{1DF96EA5-2F52-4C6D-84FD-307D6EAC790B}.{DE7A8EAB-24EC-4C61-AF7A-806E32013CA2}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;panelAnytimeAnywhere&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;ObjectType&lt;/td&gt;&lt;td&gt;Panel&lt;/td&gt;&lt;td&gt;Panel&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectIdentifier&lt;/td&gt;&lt;td&gt;HTML&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAcAcHJvamVjdAEAJAAxREY5NkVBNXgyRjUyeDRDNkR4ODRGRHgzMDdE&#xA;NkVBQzc5MEIHAHBpY2ZpbGUBACoAezQ1RjYzMjM4LUI5QTQtNEQzMC1CQzBGLUU1RUJDRkFERkRB&#xA;MX0ucG5nBABtb2RlAAAAAAQAdHlwZQEACwBSZWNvZ25pdGlvbgYAY29uZmlnAQAVAERlZmF1bHQg&#xA;Q29uZmlndXJhdGlvbgkAcHJvcGNvdW50AAACAAEAdAAAdQACAG5tAQAkAERFN0E4RUFCeDI0RUN4&#xA;NEM2MXhBRjdBeDgwNkUzMjAxM0NBMgEAYgAA16gAAQByAADdsgABAGwAAAsABAAHAG1hdGNoZWQC&#xA;AAEAMAAA77+/57+/AQAxAAABAAAABQBuYW1lcwIAAQAwAQAKAE9iamVjdFR5cGUBADEBABAAT2Jq&#xA;ZWN0SWRlbnRpZmllcgAACwBmb3VuZHZhbHVlcwIAAQAwAQAVAEA1MDAwNjEwMDZFMDA2NTAwNkMw&#xA;MAEAMQEAMAAwMzAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAA&#xA;AAYAdmFsdWVzAgABADABABUAQDUwMDA2MTAwNkUwMDY1MDA2QzAwAQAxAQARAEA0ODAwNTQwMDRE&#xA;MDA0QzAwAAA=&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{28584986-932E-462E-AE8E-83EA5DCAB66F}"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="157"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="166"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.panelAnytimeAnywhere.textnode123"/>
+					<Prp name="datetime" type="D" value="44983.8143892708"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object right" type="I" value="1955"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="object bottom" type="I" value="174"/>
+					<Prp name="object left" type="I" value="60"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="144"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="date" type="D" value="44983.8560575579"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="A click at point (71, 9) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageApsBankMalta.panelAnytimeAnywhere.textnode123&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&quot;).Panel(&quot;render_wrapper&quot;).Panel(&quot;pageHost&quot;).Panel(0).Panel(0).Panel(&quot;zone&quot;).Panel(0).Panel(&quot;widget&quot;).Panel(0).Panel(4).Panel(0).Panel(0).Panel(0).Panel(0).TextNode(0))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="picture" type="S" value="Picture5.png"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="date" type="D" value="44983.856053044"/>
+			<Prp name="type" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;style&gt;body {font-family : Segoe UI, Tahoma, Arial, Helvetica, sans-serif; font-size : 10pt; font-weight : normal; padding : 14px 8px 8px 14px; margin : 0 0 0 0;} p {margin : 4px 0 4px 0; padding : 0 0 0 0;} h4 {font-size: 10pt; font-weight : bold; margin : 12px 0 0 16px; padding : 0 0 0 0;} table {margin-left : 16px; border-top: 1px solid grey;} td {font-size : 10pt; font-weight : normal; padding-left : 8px;} &lt;/style&gt;&lt;style&gt;p, td, th{font-size: 10pt;} td, th {border-bottom: 1px solid #cdcdcd; padding: 2px 10px 2px 10px;}table.tableIntelegentFix th {text-align: left; background: #cdcdcd; font-weight : normal;}  p {padding : 0; margin : 4 0 4 0px; line-height: 16pt;} table {border: 0px;}&lt;/style&gt;&lt;body&gt;&lt;p&gt;Your test self-healed automatically. The mapping criteria for the above object were replaced with the criteria of a similar object found during the runtime.&lt;/p&gt;&lt;p&gt;&lt;code&gt;NameMapping.&amp;#8203;Sys.&amp;#8203;browser.&amp;#8203;pageApsBankMalta.&amp;#8203;panelRenderWrapper.&amp;#8203;panelPagehost.&amp;#8203;&lt;a href=&quot;namemapping://{1DF96EA5-2F52-4C6D-84FD-307D6EAC790B}.{DE7A8EAB-24EC-4C61-AF7A-806E32013CA2}&quot; title=&quot;Missing object. Click to view and change its recognition settings.&quot;&gt;&lt;span style=&quot;color: red; font-weight: bold;&quot;&gt;panelAnytimeAnywhere&lt;/span&gt;&lt;/a&gt;&lt;/code&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;A similar object has been found &amp;ndash; see the Picture tab.&lt;/p&gt;&lt;table class=&quot;tableIntelegentFix&quot; style=&quot;margin-top: 12px;&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Property&lt;/th&gt;&lt;th&gt;Mapping Value&lt;/th&gt;&lt;th&gt;Found&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody style=&quot;background-color: #f0f0f0;&quot;&gt;&lt;tr&gt;&lt;td&gt;ObjectType&lt;/td&gt;&lt;td&gt;Panel&lt;/td&gt;&lt;td&gt;Panel&lt;/td&gt;&lt;td&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;ObjectIdentifier&lt;/td&gt;&lt;td&gt;HTML&lt;/td&gt;&lt;td&gt;0&lt;/td&gt;&lt;td&gt;Update&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p&gt;&amp;nbsp;&lt;br/&gt;&lt;/p&gt;&lt;p&gt; &lt;style&gt; a.btn { background-color: #00b2ff; color: white; padding: 5px 20px; text-decoration: none; font-weight : bold; } &lt;/style&gt;&lt;a class=&quot;btn&quot; href=&quot;autofixnamemapping://54Wh5r2zAQAEAHJvb3QLAAYAY29uZmlnAQAVAERlZmF1bHQgQ29uZmlndXJhdGlvbgEAYgAA16gA&#xA;CQBwcm9wY291bnQAAAIABABtb2RlAAAAAAEAbAAACwAEAHR5cGUBAAsAUmVjb2duaXRpb24HAHBy&#xA;b2plY3QBACQAMURGOTZFQTV4MkY1Mng0QzZEeDg0RkR4MzA3RDZFQUM3OTBCAgBubQEAJABERTdB&#xA;OEVBQngyNEVDeDRDNjF4QUY3QXg4MDZFMzIwMTNDQTIBAHIAAN2yAAEAdAAAdQAHAHBpY2ZpbGUB&#xA;ACoAezU2RkEwNDI5LTJFMTktNEUyOS1BMzgxLTUzMzBFNjEzNDMwRn0ucG5nBAAFAG5hbWVzAgAB&#xA;ADABAAoAT2JqZWN0VHlwZQEAMQEAEABPYmplY3RJZGVudGlmaWVyAAAHAG1hdGNoZWQCAAEAMAAA&#xA;77+/57+/AQAxAAABAAAABgB2YWx1ZXMCAAEAMAEAFQBANTAwMDYxMDA2RTAwNjUwMDZDMDABADEB&#xA;ABEAQDQ4MDA1NDAwNEQwMDRDMDAAAAsAZm91bmR2YWx1ZXMCAAEAMAEAFQBANTAwMDYxMDA2RTAw&#xA;NjUwMDZDMDABADEBADAAMDMwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAw&#xA;MDAwMDAwAAA=&quot;&gt;Accept Intelligent Fix&lt;/a&gt;&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b style=&quot;color: #777;&quot;&gt;Tips&lt;/b&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 10px&quot;&gt;&lt;li&gt;We replaced the missing object automatically during the runtime, but did not update its recognition criteria.&lt;/li&gt;&lt;li&gt;To update the recognition criteria in the Name Mapping repository, click Accept Intelligent Fix.&lt;/li&gt;&lt;li&gt;To cancel automatic replacement of missing objects during the runtime, disable the &lt;a href=&quot;aqa-help://2196&quot;&gt;Enable Self-Healing mode&lt;/a&gt; option.&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;aqa-help://2220&quot;&gt;Learn more&lt;/a&gt; about possible causes of the issue.&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="date" type="D" value="44983.8557552894"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="URL: https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&#xA;&#xA;Aliases.browser"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="Navigating to the https://ebank.apsbank.com.mt/Omni/Retail/home/login... page."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="click point y" type="I" value="161"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="click point x" type="I" value="130"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageApsBankMalta.panelAnytimeAnywhere.button2"/>
+					<Prp name="datetime" type="D" value="44983.8142421759"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object right" type="I" value="138"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="object bottom" type="I" value="169"/>
+					<Prp name="object left" type="I" value="123"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object top" type="I" value="154"/>
+				</Node>
+			</Node>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="date" type="D" value="44983.8559111343"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageApsBankMalta.panelAnytimeAnywhere.button2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail&quot;).Panel(&quot;render_wrapper&quot;).Panel(&quot;pageHost&quot;).Panel(0).Panel(0).Panel(&quot;zone&quot;).Panel(0).Panel(&quot;widget&quot;).Panel(0).Panel(4).Panel(0).Panel(0).Panel(0).Panel(0).Button(1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="as html" type="B" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="1"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{FB508E9E-4E95-4057-B076-A9AF32A6170D}"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44984.9650102894"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44984.9654600579"/>
+				<Prp name="name" type="S" value="Release 2"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{1D87517E-8C6B-4A80-A121-973B21A40591}"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44984.9646925463"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44984.9650099884"/>
+				<Prp name="name" type="S" value="Release 1"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row4">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{81DEB5E8-A93E-4B90-9F94-CCF00ED9C69B}"/>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44984.9664809143"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44984.9667382986"/>
+				<Prp name="name" type="S" value="Release 5"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row3">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{054C4FA8-CA8D-4674-833D-E0951CB31DB2}"/>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44984.9660181829"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44984.9664808681"/>
+				<Prp name="name" type="S" value="Release 4"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="details" type="S" value="{82792D80-6EC9-4584-B1DB-2155E2354CD2}"/>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="44984.9654601157"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44984.966018125"/>
+				<Prp name="name" type="S" value="Release 3"/>
+				<Prp name="testdata item" type="B" value="0"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{35217362-6041-4CD0-ACD1-0393419303D1}">
+	<children>
+		<child name="APSBankSuite_Chrome" key="{4C0EDAC2-9226-4FC2-89A1-30B54EC39342}" path="APSBankSuite\APSBankSuite_Chrome.mds" />
+	</children>
+	<testItems key="{019E2DC7-D490-484E-8EAA-80E6E111C273}">
+		<children>
+			<testItem key="{4C0EDAC2-9226-4FC2-89A1-30B54EC39342}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{F9659C46-C096-4617-9C36-BAFA478DF8C5}" />
+	<analysis key="{DAE0FEE7-7EB4-41C3-974A-D359F7105B8D}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,1828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{47F79FE0-994B-4719-8D87-25108A55D615}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{69BE613C-F735-4400-A50D-49851C7E4113}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{6627C339-7B94-4887-A139-25EAB6DBEA59}">
+								<Image FileName="2057710434" Left="132" Top="45" Right="1350" Bottom="1053" />
+								<TypeInfo Item0="{2E8F2043-84A1-4B26-A708-C20048E8CE07}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageApsBankMalta" Key="{381010CD-6A6F-4636-AD6A-A7C8609FC1A9}">
+								<Image FileName="-1626348668" Left="0" Top="106" Right="1920" Bottom="1007" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://ebank.apsbank.com.mt/Omni/Retail/home/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelRenderWrapper" Key="{AE7B5F55-6139-4811-A19E-F96E71188C40}" ExtendedFind="True">
+										<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="1081" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="render-wrapper" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelPagehost" Key="{93235ACD-E7E3-4D90-9CB4-67BED941F571}" ExtendedFind="True">
+												<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="1081" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="pageHost" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelAnytimeAnywhere" Key="{DE7A8EAB-24EC-4C61-AF7A-806E32013CA2}" ExtendedFind="True">
+														<Image FileName="-1742842108" Left="49" Top="599" Right="410" Bottom="852" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="HTML" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelAnytimeAnywhere" Key="{D2E096C9-EE67-417F-B31B-238F95AFC551}" ExtendedFind="True">
+																<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="1036" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelZone" Key="{A48BED82-4DB9-4878-A910-1400FA5FD8D7}" ExtendedFind="True">
+																		<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="zone" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelAnytimeAnywhere" Key="{ACB72BC2-D2A3-40EF-8CF5-387F17B72C19}" ExtendedFind="True">
+																				<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelWidget" Key="{4C61F806-36EB-4524-B785-E0A5E6F08A38}">
+																						<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelAnytimeAnywhere" Key="{32909DA5-53CA-41FF-8980-7CC7EB801E48}">
+																								<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panelAnytimeAnywhere" Key="{413D8789-C770-48E5-B478-0B585B4D6F5D}">
+																										<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="4" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panelAnytimeAnywhere" Key="{11086619-AC64-4FCB-B9A8-517FB00AF399}">
+																												<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panelAnytimeAnywhere" Key="{133066FD-740F-4ED2-BD7E-F0701B441614}">
+																														<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panelAnytimeAnywhere" Key="{12FBE037-4083-4ECF-85D6-CF6B52E6AFA5}">
+																																<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="panelAnytimeAnywhere" Key="{4888BE3D-763E-417D-9C69-388C180A335D}">
+																																		<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="panelAnytimeAnywhere" Key="{35F81CFE-09AE-4BEF-A643-52A45AA306C5}">
+																																				<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Panel" />
+																																					</Property>
+																																				</Properties>
+																																				<Children>
+																																					<Child Name="panelAnytimeAnywhere" Key="{C99CA336-7A88-45A0-8D7A-73BECFE9C3C6}">
+																																						<Image FileName="-1626348668" Left="0" Top="-344" Right="5684" Bottom="886" />
+																																						<Properties>
+																																							<Property Name="ObjectType">
+																																								<Value Value="Panel" />
+																																							</Property>
+																																						</Properties>
+																																						<Children>
+																																							<Child Name="panel1" Key="{5142780A-035F-4523-B15D-8EEE78D3B5BF}">
+																																								<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																																								<Properties>
+																																									<Property Name="ObjectType">
+																																										<Value Value="Panel" />
+																																									</Property>
+																																									<Property Name="contentText">
+																																										<Value Value="anytime, anywhere" />
+																																									</Property>
+																																									<Property Name="ObjectIdentifier">
+																																										<Value Value="0" Type="0" />
+																																									</Property>
+																																								</Properties>
+																																								<Children>
+																																									<Child Name="panel" Key="{880F53C8-3FDD-4E88-9D0E-2C010DAE19A9}">
+																																										<Image FileName="-1626348668" Left="0" Top="-344" Right="1895" Bottom="886" />
+																																										<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																										<Properties>
+																																											<Property Name="ObjectType">
+																																												<Value Value="Panel" />
+																																											</Property>
+																																											<Property Name="ObjectIdentifier">
+																																												<Value Value="1" Type="0" />
+																																											</Property>
+																																										</Properties>
+																																									</Child>
+																																								</Children>
+																																							</Child>
+																																							<Child Name="panel2" Key="{C290DD16-0E88-4A31-8121-D79372CDFEEA}" ExtendedFind="True">
+																																								<Image FileName="-1979721898" Left="0" Top="-344" Right="1895" Bottom="886" />
+																																								<Properties>
+																																									<Property Name="ObjectType">
+																																										<Value Value="Panel" />
+																																									</Property>
+																																									<Property Name="contentText">
+																																										<Value Value="anytime, anywhere" />
+																																									</Property>
+																																									<Property Name="ObjectIdentifier">
+																																										<Value Value="1" Type="0" />
+																																									</Property>
+																																								</Properties>
+																																								<Children>
+																																									<Child Name="panel" Key="{D4C55757-EF11-43F4-A446-D38667A89173}" ExtendedFind="True">
+																																										<Image FileName="-1979721898" Left="0" Top="-344" Right="1895" Bottom="886" />
+																																										<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																										<Properties>
+																																											<Property Name="ObjectType">
+																																												<Value Value="Panel" />
+																																											</Property>
+																																											<Property Name="ObjectIdentifier">
+																																												<Value Value="1" Type="0" />
+																																											</Property>
+																																										</Properties>
+																																									</Child>
+																																								</Children>
+																																							</Child>
+																																							<Child Name="panel3" Key="{95D2888E-BB8D-4520-AED4-F7CE4FD14D61}" ExtendedFind="True">
+																																								<Image FileName="-461994940" Left="0" Top="-417" Right="1895" Bottom="813" />
+																																								<Properties>
+																																									<Property Name="ObjectType">
+																																										<Value Value="Panel" />
+																																									</Property>
+																																									<Property Name="contentText">
+																																										<Value Value="anytime, anywhere" />
+																																									</Property>
+																																									<Property Name="ObjectIdentifier">
+																																										<Value Value="2" Type="0" />
+																																									</Property>
+																																								</Properties>
+																																								<Children>
+																																									<Child Name="panel" Key="{6FD394AE-7640-4F94-9A81-7A7C6B90CD06}" ExtendedFind="True">
+																																										<Image FileName="-461994940" Left="0" Top="-417" Right="1895" Bottom="813" />
+																																										<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																										<Properties>
+																																											<Property Name="ObjectType">
+																																												<Value Value="Panel" />
+																																											</Property>
+																																											<Property Name="ObjectIdentifier">
+																																												<Value Value="1" Type="0" />
+																																											</Property>
+																																										</Properties>
+																																									</Child>
+																																								</Children>
+																																							</Child>
+																																						</Children>
+																																					</Child>
+																																				</Children>
+																																			</Child>
+																																			<Child Name="button2" Key="{D8FE6643-EE3B-43C6-9772-2FFC083A31C3}">
+																																				<Image FileName="-1599627086" Left="123" Top="154" Right="138" Bottom="169" />
+																																				<TypeInfo Item0="{035A5CC5-2896-4521-8C83-9E90319AB788}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Button" />
+																																					</Property>
+																																					<Property Name="contentText">
+																																						<Value Value="2" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																			<Child Name="button3" Key="{AFE79B24-A7BD-4D22-827A-4D6B9C87096C}">
+																																				<Image FileName="796801464" Left="170" Top="154" Right="185" Bottom="169" />
+																																				<TypeInfo Item0="{035A5CC5-2896-4521-8C83-9E90319AB788}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Button" />
+																																					</Property>
+																																					<Property Name="contentText">
+																																						<Value Value="3" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																			<Child Name="button1" Key="{19907E48-A64D-4844-822C-FB5FCFD619DD}">
+																																				<Image FileName="417213199" Left="76" Top="154" Right="91" Bottom="169" />
+																																				<TypeInfo Item0="{035A5CC5-2896-4521-8C83-9E90319AB788}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="Button" />
+																																					</Property>
+																																					<Property Name="contentText">
+																																						<Value Value="1" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																			<Child Name="textnode123" Key="{50817537-9E02-437A-B061-FD08B393EEE3}" ExtendedFind="True">
+																																				<Image FileName="-314461242" Left="60" Top="144" Right="1955" Bottom="174" />
+																																				<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="TextNode" />
+																																					</Property>
+																																					<Property Name="contentText">
+																																						<Value Value="31000A0032000A003300" Type="7" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="panelZone2" Key="{07B490DC-E119-4477-9A05-5B0B703EE481}" ExtendedFind="True">
+																		<Image FileName="1917182128" Left="0" Top="1336" Right="1895" Bottom="1486" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="zone_2" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelLogInUsing" Key="{3027B634-DA35-4F37-A660-78C21DDB7596}" ExtendedFind="True">
+																				<Image FileName="1917182128" Left="0" Top="1336" Right="1895" Bottom="1336" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelWidget" Key="{8AA37FEE-5619-4851-BAB8-13E01CE24B64}">
+																						<Image FileName="1917182128" Left="1213" Top="406" Right="1663" Bottom="1451" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="widget" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelLogInUsing" Key="{8CE40FF3-F6B4-4FD4-88D2-474E35C5D6A2}">
+																								<Image FileName="1917182128" Left="1213" Top="406" Right="1663" Bottom="1451" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panelLogInUsing" Key="{4C9161A9-E2E0-4707-9721-C886470F9A0C}">
+																										<Image FileName="1917182128" Left="1243" Top="436" Right="1633" Bottom="1421" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="4" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panelLogInUsing" Key="{82EE2BB8-DEA4-4885-A18D-8CE370D2E884}">
+																												<Image FileName="1917182128" Left="1250" Top="444" Right="1625" Bottom="1414" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panelLogInUsing" Key="{D9C93251-D345-43B1-9E89-8B8622530FCB}">
+																														<Image FileName="1917182128" Left="1250" Top="444" Right="1625" Bottom="1414" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panelLogintypeselector" Key="{43FDF4DC-C787-4DD0-8F44-E4E553753830}">
+																																<Image FileName="1917182128" Left="1250" Top="492" Right="1625" Bottom="606" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="idStr">
+																																		<Value Value="loginTypeSelector" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="panelUsernameAndPhysicalToken" Key="{A1A70FD0-56A1-4640-9B3E-D349378C6254}">
+																																		<Image FileName="1917182128" Left="1250" Top="549" Right="1625" Bottom="606" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="Username and Physical Token" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="radiobuttonLoginradio" Key="{DB0B27CA-D9BD-4C8E-BA90-C868AB098E47}">
+																																				<Image FileName="1917182128" Left="1258" Top="556" Right="1278" Bottom="576" />
+																																				<TypeInfo Item0="{3BDEE5E9-F98E-4E99-B5F5-3D4A948D0DD8}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="RadioButton" />
+																																					</Property>
+																																					<Property Name="ObjectIdentifier">
+																																						<Value Value="loginRadio" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																	<Child Name="panelUsernameAndMobileApp" Key="{4B396DD8-B9DD-4642-ADEE-F1DBAD1129CB}">
+																																		<Image FileName="507653508" Left="1250" Top="492" Right="1625" Bottom="549" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="Username and Mobile App" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="radiobuttonLoginradio" Key="{CCFE9718-8AB5-4DD4-BE13-6451E414FC08}">
+																																				<Image FileName="507653508" Left="1258" Top="499" Right="1278" Bottom="519" />
+																																				<TypeInfo Item0="{3BDEE5E9-F98E-4E99-B5F5-3D4A948D0DD8}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="RadioButton" />
+																																					</Property>
+																																					<Property Name="ObjectIdentifier">
+																																						<Value Value="loginRadio" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																															<Child Name="panelPanelusernameotp" Key="{AC8553DE-5752-4F1D-A5E2-9EC9AA331355}" ExtendedFind="True">
+																																<Image FileName="-79427796" Left="1250" Top="156" Right="1625" Bottom="589" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="idStr">
+																																		<Value Value="panelUsernameOTP" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="buttonSignUp" Key="{20CFC8EA-A128-4933-9E4C-125922CF966C}" ExtendedFind="True">
+																																		<Image FileName="-79427796" Left="1250" Top="519" Right="1419" Bottom="589" />
+																																		<TypeInfo Item0="{15FD0F37-5A56-4056-BCA7-5D0A345FD120}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Button" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="Sign Up" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																	<Child Name="buttonLogIn" Key="{9940B9A5-2DC7-4AD6-8348-69F5EBEC9E06}" ExtendedFind="True">
+																																		<Image FileName="-1352339857" Left="1455" Top="669" Right="1624" Bottom="739" />
+																																		<TypeInfo Item0="{15FD0F37-5A56-4056-BCA7-5D0A345FD120}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Button" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="Log In" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																	<Child Name="textbox" Key="{31E25FBD-1CE0-421B-AE04-043D751BF5E5}" ExtendedFind="True">
+																																		<Image FileName="1063234024" Left="1250" Top="334" Right="1625" Bottom="415" />
+																																		<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Textbox" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																	<Child Name="passwordbox" Key="{6315669D-A9C2-4593-A534-CECD88AA1C1F}" ExtendedFind="True">
+																																		<Image FileName="907520077" Left="1250" Top="474" Right="1625" Bottom="555" />
+																																		<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="PasswordBox" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																															<Child Name="panelPanelusernamecronto" Key="{85CCF3A0-5F19-4A4C-897C-5D875FD40866}" ExtendedFind="True">
+																																<Image FileName="196226933" Left="1250" Top="306" Right="1625" Bottom="600" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="idStr">
+																																		<Value Value="panelUsernameCronto" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="buttonLogIn" Key="{C0753E91-A8D2-4202-B81A-6AF6D7EA97A2}" ExtendedFind="True">
+																																		<Image FileName="196226933" Left="1455" Top="529" Right="1624" Bottom="599" />
+																																		<TypeInfo Item0="{15FD0F37-5A56-4056-BCA7-5D0A345FD120}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Button" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="Log In" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																	<Child Name="textbox" Key="{B260E227-85A8-4AB9-BCF0-6DD88F9C1C06}" ExtendedFind="True">
+																																		<Image FileName="-629082533" Left="1250" Top="334" Right="1625" Bottom="415" />
+																																		<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Textbox" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																															<Child Name="panelStep1" Key="{B6A9A755-BA6C-4B0D-9580-D86CD277A598}" ExtendedFind="True">
+																																<Image FileName="153321215" Left="0" Top="106" Right="1920" Bottom="1008" />
+																																<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="contentText">
+																																		<Value Value="5300740065007000200031000A0045006E00740065007200200079006F0075007200200055007300650072006E0061006D006500200061006E006400200067006F00200074006F00200079006F007500720020006D00790041005000530020006D006F00620069006C00650020006100700070002E000A005300740065007000200032000A0054006100700020001C2054006F006B0065006E001D200A005300740065007000200033000A0054006100700020001C20470065006E00650072006100740065002000530065006300750072006500200043006F00640065001D202E0045006E00740065007200200079006F007500720020006100700070002000500049004E00200061006E006400200074006100700020001C204E006500780074001D202E005400680065002000530065006300750072006500200043006F00640065002000770069006C006C00200062006500200064006900730070006C0061007900650064002E0045006E0074006500720020007400680065002000530065006300750072006500200043006F0064006500200074006F0020004C006F006700200049006E002E000A004F004B00" Type="7" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value Value="0" Type="0" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="linkDemo" Key="{7195EB37-6AC5-475A-A3E9-F901064189AA}" ExtendedFind="True">
+																		<Image FileName="1777979895" Left="68" Top="699" Right="203" Bottom="782" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Link" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Demo" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{A61D9307-D9BC-41F0-8EDC-4D7D90A6D9A2}" ExtendedFind="True">
+																				<Image FileName="1777979895" Left="105" Top="699" Right="165" Bottom="759" />
+																				<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="linkHelp" Key="{5C1038B6-52AB-40FB-A47E-B9385E4EA6E6}" ExtendedFind="True">
+																		<Image FileName="-1091327605" Left="234" Top="699" Right="369" Bottom="782" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Link" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Help" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{F62C8090-DAFA-491E-AC5D-E108858BC778}" ExtendedFind="True">
+																				<Image FileName="-1091327605" Left="271" Top="699" Right="331" Bottom="759" />
+																				<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																			<Child Name="textnodeHelp" Key="{F3FFA09D-1968-442E-A0B4-7B018663F305}" ExtendedFind="True">
+																				<Image FileName="-393474857" Left="277" Top="684" Right="325" Bottom="709" />
+																				<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="TextNode" />
+																					</Property>
+																					<Property Name="contentText">
+																						<Value Value="Help" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="linkBranches" Key="{EF1F0B32-7ACF-458B-9B2E-5E56712CC15A}" ExtendedFind="True">
+																		<Image FileName="477764994" Left="68" Top="738" Right="203" Bottom="821" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Link" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Branches" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{2C77D343-1683-471B-9441-030B4AD9971B}" ExtendedFind="True">
+																				<Image FileName="477764994" Left="105" Top="738" Right="165" Bottom="798" />
+																				<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																	<Child Name="linkContact" Key="{6AC718A1-2142-44DC-8A86-92CE624AA275}" ExtendedFind="True">
+																		<Image FileName="-262793124" Left="234" Top="738" Right="369" Bottom="821" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Link" />
+																			</Property>
+																			<Property Name="contentText">
+																				<Value Value="Contact" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panel" Key="{90C8F15F-3F5D-4A76-A97F-883D3559F075}" ExtendedFind="True">
+																				<Image FileName="-262793124" Left="271" Top="738" Right="331" Bottom="798" />
+																				<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="panelZone" Key="{EE6B6FF9-E848-464B-A67B-D15630B4BD55}" ExtendedFind="True">
+														<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="zone" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelAnytimeAnywhere" Key="{59FAEF85-0642-497B-8241-3685CCD73A8E}" ExtendedFind="True">
+																<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="4" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelAnytimeAnywhere" Key="{378A7361-5179-4B01-864C-6167C90CAEAE}" ExtendedFind="True">
+																		<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelAnytimeAnywhere" Key="{26995D39-0933-42B8-AFCA-BD5A6605EB16}" ExtendedFind="True">
+																				<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelAnytimeAnywhere" Key="{71C0868C-C7E0-4F7C-AC2B-B9A2B7607817}" ExtendedFind="True">
+																						<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelAnytimeAnywhere" Key="{48295AC3-4042-43C5-9AD0-254720967BF6}" ExtendedFind="True">
+																								<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panelAnytimeAnywhere" Key="{70E0FD16-019B-4460-B3BF-E89196637331}" ExtendedFind="True">
+																										<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panelAnytimeAnywhere" Key="{3341B4C2-902C-43AF-9DAF-E6FD5EE316FA}" ExtendedFind="True">
+																												<Image FileName="-1168089029" Left="0" Top="-417" Right="5684" Bottom="813" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panel1" Key="{EE75D82D-0BB0-4ADC-80A1-CCFE0384B51B}">
+																														<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="contentText">
+																																<Value Value="anytime, anywhere" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="0" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panel" Key="{6DB00215-6062-476B-BCE2-4F9D64919D8B}" ExtendedFind="True">
+																																<Image FileName="-1168089029" Left="0" Top="-417" Right="1895" Bottom="813" />
+																																<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value Value="1" Type="0" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="panel3" Key="{134A688E-61F6-4FEC-83FA-A648CB619080}" ExtendedFind="True">
+																														<Image FileName="853196056" Left="0" Top="-417" Right="1895" Bottom="813" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="contentText">
+																																<Value Value="anytime, anywhere" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="2" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panel" Key="{D5AB462B-BBBB-437C-9854-FB703AA4B04E}" ExtendedFind="True">
+																																<Image FileName="853196056" Left="0" Top="-417" Right="1895" Bottom="813" />
+																																<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value Value="1" Type="0" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																													<Child Name="panel2" Key="{714DB0D6-806D-46C9-B9AA-FC5872772734}" ExtendedFind="True">
+																														<Image FileName="-1599124059" Left="0" Top="88" Right="1579" Bottom="1113" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																															<Property Name="contentText">
+																																<Value Value="anytime, anywhere" />
+																															</Property>
+																															<Property Name="ObjectIdentifier">
+																																<Value Value="1" Type="0" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panel" Key="{4C50F3B7-BDAF-45F0-954B-8788584ACC5A}" ExtendedFind="True">
+																																<Image FileName="-1599124059" Left="0" Top="88" Right="1579" Bottom="1113" />
+																																<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value Value="1" Type="0" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																									<Child Name="button1" Key="{FA678791-2E40-473E-89BD-39FC6F15F7B0}" ExtendedFind="True">
+																										<Image FileName="1651923008" Left="63" Top="128" Right="76" Bottom="141" />
+																										<TypeInfo Item0="{035A5CC5-2896-4521-8C83-9E90319AB788}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Button" />
+																											</Property>
+																											<Property Name="contentText">
+																												<Value Value="1" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="button2" Key="{282F65D5-A67A-4BD4-9B9B-E9F039BAB13D}" ExtendedFind="True">
+																										<Image FileName="-1735792336" Left="102" Top="128" Right="115" Bottom="141" />
+																										<TypeInfo Item0="{035A5CC5-2896-4521-8C83-9E90319AB788}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Button" />
+																											</Property>
+																											<Property Name="contentText">
+																												<Value Value="2" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																									<Child Name="button3" Key="{12CC137F-3E58-45B5-930A-1AA31D921764}" ExtendedFind="True">
+																										<Image FileName="-1051538868" Left="140" Top="128" Right="153" Bottom="141" />
+																										<TypeInfo Item0="{035A5CC5-2896-4521-8C83-9E90319AB788}" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Button" />
+																											</Property>
+																											<Property Name="contentText">
+																												<Value Value="3" />
+																											</Property>
+																										</Properties>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="panelPanelusernameotp" Key="{503F3AAB-1046-4562-88B0-2AD52BD557D9}" ExtendedFind="True">
+														<Image FileName="-803303027" Left="1042" Top="129" Right="1355" Bottom="491" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="idStr">
+																<Value Value="panelUsernameOTP" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="buttonSignUp" Key="{E2679224-CF8B-47BC-96E4-8F9B772BD525}" ExtendedFind="True">
+																<Image FileName="-803303027" Left="1042" Top="433" Right="1183" Bottom="491" />
+																<TypeInfo Item0="{15FD0F37-5A56-4056-BCA7-5D0A345FD120}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="Sign Up" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="textbox" Key="{B93F0444-3DC8-4EEE-BA8C-41BB4E39C47F}" ExtendedFind="True">
+																<Image FileName="333307522" Left="1042" Top="403" Right="1355" Bottom="471" />
+																<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Textbox" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="passwordbox" Key="{FCE1E3BC-27AF-4C36-A527-949FA12BAE99}" ExtendedFind="True">
+																<Image FileName="1626506395" Left="1042" Top="520" Right="1355" Bottom="588" />
+																<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="PasswordBox" />
+																	</Property>
+																</Properties>
+															</Child>
+															<Child Name="buttonLogIn" Key="{B1300841-1A65-43E6-84B3-FAE0381BF375}" ExtendedFind="True">
+																<Image FileName="-1338366365" Left="1212" Top="683" Right="1353" Bottom="741" />
+																<TypeInfo Item0="{15FD0F37-5A56-4056-BCA7-5D0A345FD120}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Button" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="Log In" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="panelUsernameAndMobileApp" Key="{04707F05-3F01-41D6-A66F-62B66BAB6838}" ExtendedFind="True">
+														<Image FileName="1476529405" Left="1042" Top="409" Right="1355" Bottom="457" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="Username and Mobile App" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="radiobuttonLoginradio" Key="{3667C4BD-7DCC-4B26-ADD0-0B695F8F6B33}" ExtendedFind="True">
+																<Image FileName="1476529405" Left="1048" Top="416" Right="1064" Bottom="432" />
+																<TypeInfo Item0="{3BDEE5E9-F98E-4E99-B5F5-3D4A948D0DD8}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="RadioButton" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="loginRadio" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="panelAnytimeAnywhere2" Key="{6BEC0201-E185-4A23-9939-2F9A9618664B}">
+														<Image FileName="722710323" Left="0" Top="88" Right="1579" Bottom="1251" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelAnytimeAnywhere" Key="{96B35C34-1C51-4B44-BB75-1D61C9A3A876}">
+																<Image FileName="722710323" Left="0" Top="88" Right="1579" Bottom="1238" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelZone2" Key="{DD1B2615-7B2D-49E7-BE7E-AC7035749BBA}">
+																		<Image FileName="722710323" Left="0" Top="1113" Right="1579" Bottom="1238" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																			<Property Name="ObjectIdentifier">
+																				<Value Value="zone_2" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelLogInUsing" Key="{CDBC618C-688B-40F6-A760-8942807321E4}">
+																				<Image FileName="722710323" Left="0" Top="1113" Right="1579" Bottom="1113" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelWidget" Key="{434A6E8A-E1EF-4408-B1FC-EC6297CBB975}">
+																						<Image FileName="722710323" Left="1010" Top="338" Right="1385" Bottom="1210" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="widget" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelLogInUsing" Key="{377F1505-DEB6-4B3E-ABD7-0BC3BF5A48AA}">
+																								<Image FileName="722710323" Left="1010" Top="338" Right="1385" Bottom="1210" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																								</Properties>
+																								<Children>
+																									<Child Name="panelLogInUsing" Key="{9EC07D70-B36F-41CF-8179-10A4DD4A292A}">
+																										<Image FileName="722710323" Left="1035" Top="363" Right="1360" Bottom="1185" />
+																										<Properties>
+																											<Property Name="ObjectType">
+																												<Value Value="Panel" />
+																											</Property>
+																											<Property Name="ObjectIdentifier">
+																												<Value Value="4" Type="0" />
+																											</Property>
+																										</Properties>
+																										<Children>
+																											<Child Name="panelLogInUsing" Key="{3228C488-906E-40C2-8C84-9A453C08666D}">
+																												<Image FileName="722710323" Left="1042" Top="369" Right="1355" Bottom="1179" />
+																												<Properties>
+																													<Property Name="ObjectType">
+																														<Value Value="Panel" />
+																													</Property>
+																												</Properties>
+																												<Children>
+																													<Child Name="panelLogInUsing" Key="{896771E7-52A7-4928-B9A3-CBA06C9B4B55}">
+																														<Image FileName="722710323" Left="1042" Top="369" Right="1355" Bottom="1179" />
+																														<Properties>
+																															<Property Name="ObjectType">
+																																<Value Value="Panel" />
+																															</Property>
+																														</Properties>
+																														<Children>
+																															<Child Name="panelLogintypeselector" Key="{6709E89F-D3E7-496D-817A-0D35F34086C4}">
+																																<Image FileName="722710323" Left="1042" Top="409" Right="1355" Bottom="504" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="idStr">
+																																		<Value Value="loginTypeSelector" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="panelUsernameAndPhysicalToken" Key="{936838C9-B795-4F6E-9E57-50E1AACC30EB}">
+																																		<Image FileName="722710323" Left="1042" Top="457" Right="1355" Bottom="505" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Panel" />
+																																			</Property>
+																																			<Property Name="contentText">
+																																				<Value Value="Username and Physical Token" />
+																																			</Property>
+																																		</Properties>
+																																		<Children>
+																																			<Child Name="radiobuttonLoginradio" Key="{3F545816-9B3F-4B73-9DDB-D3E7DB0B9F4E}" ExtendedFind="True">
+																																				<Image FileName="722710323" Left="1048" Top="463" Right="1064" Bottom="479" />
+																																				<TypeInfo Item0="{3BDEE5E9-F98E-4E99-B5F5-3D4A948D0DD8}" />
+																																				<Properties>
+																																					<Property Name="ObjectType">
+																																						<Value Value="RadioButton" />
+																																					</Property>
+																																					<Property Name="ObjectIdentifier">
+																																						<Value Value="loginRadio" />
+																																					</Property>
+																																				</Properties>
+																																			</Child>
+																																		</Children>
+																																	</Child>
+																																</Children>
+																															</Child>
+																															<Child Name="panelPanelusernamecronto" Key="{6E2DF120-4064-45CD-8E36-078A3D1F32D0}" ExtendedFind="True">
+																																<Image FileName="991152084" Left="1042" Top="504" Right="1355" Bottom="749" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="idStr">
+																																		<Value Value="panelUsernameCronto" />
+																																	</Property>
+																																</Properties>
+																																<Children>
+																																	<Child Name="textbox" Key="{B6997317-935E-47FE-825A-5F8C613A0952}" ExtendedFind="True">
+																																		<Image FileName="991152084" Left="1042" Top="528" Right="1355" Bottom="596" />
+																																		<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+																																		<Properties>
+																																			<Property Name="ObjectType">
+																																				<Value Value="Textbox" />
+																																			</Property>
+																																		</Properties>
+																																	</Child>
+																																</Children>
+																															</Child>
+																															<Child Name="panelStep1" Key="{5C1835CB-EC56-4C07-BE06-F5D386285B99}" ExtendedFind="True">
+																																<Image FileName="1114425729" Left="0" Top="88" Right="1600" Bottom="840" />
+																																<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																																<Properties>
+																																	<Property Name="ObjectType">
+																																		<Value Value="Panel" />
+																																	</Property>
+																																	<Property Name="contentText">
+																																		<Value Value="5300740065007000200031000A0045006E00740065007200200079006F0075007200200055007300650072006E0061006D006500200061006E006400200067006F00200074006F00200079006F007500720020006D00790041005000530020006D006F00620069006C00650020006100700070002E000A005300740065007000200032000A0054006100700020001C2054006F006B0065006E001D200A005300740065007000200033000A0054006100700020001C20470065006E00650072006100740065002000530065006300750072006500200043006F00640065001D202E0045006E00740065007200200079006F007500720020006100700070002000500049004E00200061006E006400200074006100700020001C204E006500780074001D202E005400680065002000530065006300750072006500200043006F00640065002000770069006C006C00200062006500200064006900730070006C0061007900650064002E0045006E0074006500720020007400680065002000530065006300750072006500200043006F0064006500200074006F0020004C006F006700200049006E002E000A004F004B00" Type="7" />
+																																	</Property>
+																																	<Property Name="ObjectIdentifier">
+																																		<Value Value="0" Type="0" />
+																																	</Property>
+																																</Properties>
+																															</Child>
+																														</Children>
+																													</Child>
+																												</Children>
+																											</Child>
+																										</Children>
+																									</Child>
+																								</Children>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="linkTermsConditions" Key="{D3E2DDA4-4BE6-4024-927C-78EFDCA7595E}" ExtendedFind="True">
+												<Image FileName="-1718835119" Left="1685" Top="949" Right="1888" Bottom="979" />
+												<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Terms &amp; Conditions" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="panelFooterLogin" Key="{8689B3C3-1CDF-419C-B601-7CA70BBA9139}" ExtendedFind="True">
+												<Image FileName="684053874" Left="0" Top="918" Right="1895" Bottom="1008" />
+												<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="idStr">
+														<Value Value="footer-login" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{F7F8543F-D9CC-464D-BA9A-A39F9E23416D}" ExtendedFind="True">
+														<Image FileName="-259451309" Left="11" Top="929" Right="1906" Bottom="929" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="0" Type="0" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panel" Key="{07A85C80-E4A1-4868-A063-3773C2A05CDE}">
+																<Image FileName="1742016634" Left="0" Top="918" Right="68" Bottom="986" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																	<Property Name="ObjectIdentifier">
+																		<Value Value="0" Type="0" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panel" Key="{53172BFA-97F3-4F8D-975A-ED355F893450}" ExtendedFind="True">
+																		<Image FileName="1742016634" Left="15" Top="933" Right="68" Bottom="986" />
+																		<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																	</Child>
+																</Children>
+															</Child>
+															<Child Name="linkCopyright2018ApsBankPlc" Key="{8BC96B9F-E1CA-4125-9E89-993470C36393}" ExtendedFind="True">
+																<Image FileName="992038880" Left="1380" Top="949" Right="1684" Bottom="979" />
+																<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Link" />
+																	</Property>
+																	<Property Name="contentText">
+																		<Value Value="Copyright 2018 - APS Bank plc" />
+																	</Property>
+																</Properties>
+															</Child>
+														</Children>
+													</Child>
+													<Child Name="linkCopyright2018ApsBankPlc" Key="{57BE760F-8C46-4E05-8130-617B87EF24C1}" ExtendedFind="True">
+														<Image FileName="-234167807" Left="1380" Top="950" Right="1684" Bottom="980" />
+														<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Link" />
+															</Property>
+															<Property Name="contentText">
+																<Value Value="Copyright 2018 - APS Bank plc" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="panelSignUp" Key="{9FFB602D-366D-4725-9B96-A748F88EBF47}" ExtendedFind="True">
+										<Image FileName="-1460766912" Left="569" Top="250" Right="1328" Bottom="863" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="role">
+												<Value Value="dialog" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="linkDetailsIdEuNewfrontierIbanki" Key="{D51F05BA-79BB-452E-A525-AED28200F573}" ExtendedFind="True">
+												<Image FileName="131028407" Left="1166" Top="492" Right="1166" Bottom="492" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+													<Property Name="pathname">
+														<Value Value="/store/apps/details" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{67052120-5C7A-4716-BF17-63EEDC4872C6}" ExtendedFind="True">
+														<Image FileName="131028407" Left="731" Top="492" Right="934" Bottom="552" />
+														<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="linkId1454207441" Key="{C15D9137-BC6B-4AC9-8AAC-919E40DAFCB9}" ExtendedFind="True">
+												<Image FileName="2094953887" Left="1166" Top="492" Right="1166" Bottom="492" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+													<Property Name="href">
+														<Value Value="https://apps.apple.com/us/app/myaps/id1454207441" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{009F3022-72D2-4122-903B-77D43D85BDEA}" ExtendedFind="True">
+														<Image FileName="2094953887" Left="963" Top="492" Right="1166" Bottom="552" />
+														<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="panelIUnderstandAndAccept" Key="{E08BA9EB-BC48-473B-A785-E6A1B9DC4E24}" ExtendedFind="True">
+												<Image FileName="-1002044653" Left="603" Top="675" Right="1293" Bottom="704" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="I understand and accept" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="0" Type="0" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panel" Key="{A919A40B-82ED-4545-BB8A-1235E2E49B05}" ExtendedFind="True">
+														<Image FileName="-1002044653" Left="603" Top="679" Right="629" Bottom="705" />
+														<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="linkNeedHelp" Key="{034313BB-09B5-4D22-B432-AAFBBA0E3F37}" ExtendedFind="True">
+												<Image FileName="-1345143673" Left="1163" Top="809" Right="1272" Bottom="833" />
+												<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Link" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Need help?" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonNext" Key="{743F4BB6-D9D5-4EEE-AD82-154EAAE5E14C}" ExtendedFind="True">
+												<Image FileName="-133122862" Left="1151" Top="726" Right="1286" Bottom="780" />
+												<TypeInfo Item0="{15FD0F37-5A56-4056-BCA7-5D0A345FD120}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="Next" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="1" Type="0" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="panelFirstName" Key="{9FB3A809-1E16-48BA-BEC0-0628EB4C8429}" ExtendedFind="True">
+												<Image FileName="556545558" Left="603" Top="399" Right="937" Bottom="509" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="4600690072007300740020004E0061006D0065003A000A002A00" Type="7" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textbox" Key="{9C26E787-6BA1-4E71-B139-0B3DB5267611}" ExtendedFind="True">
+														<Image FileName="556545558" Left="603" Top="429" Right="937" Bottom="479" />
+														<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Textbox" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="panelLastName" Key="{61BDCFD0-E132-451B-BDC4-77A3F2EC30CC}" ExtendedFind="True">
+												<Image FileName="267534652" Left="958" Top="399" Right="1292" Bottom="509" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="4C0061007300740020004E0061006D0065003A000A002A00" Type="7" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textbox" Key="{CF332444-7AB9-45AD-BC8E-537B549B5D50}" ExtendedFind="True">
+														<Image FileName="267534652" Left="958" Top="429" Right="1292" Bottom="479" />
+														<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Textbox" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="panelMobileNumberExclPrefix" Key="{42D8E510-1576-4C4F-8330-56E6AC9E59BD}" ExtendedFind="True">
+												<Image FileName="1741786067" Left="603" Top="509" Right="937" Bottom="619" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="4D006F00620069006C00650020004E0075006D00620065007200200028006500780063006C002E00200050007200650066006900780029003A000A002A00" Type="7" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="textbox" Key="{86C39666-7532-446E-BC09-D7FAD4C4543A}" ExtendedFind="True">
+														<Image FileName="1741786067" Left="603" Top="539" Right="937" Bottom="589" />
+														<TypeInfo Item0="{239CAAC4-19A4-46CE-AB0D-D180BCD4A03E}" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Textbox" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+											<Child Name="buttonOk" Key="{63CBC4C9-6F4E-4E25-AB25-DCDD155BCD92}" ExtendedFind="True">
+												<Image FileName="-1052843600" Left="1283" Top="593" Right="1372" Bottom="654" />
+												<TypeInfo Item0="{15FD0F37-5A56-4056-BCA7-5D0A345FD120}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="OK" />
+													</Property>
+												</Properties>
+											</Child>
+											<Child Name="buttonClose" Key="{999FC39C-18C2-4771-92F0-FBDC76CA6E84}" ExtendedFind="True">
+												<Image FileName="-995740040" Left="1054" Top="237" Right="1078" Bottom="260" />
+												<TypeInfo Item0="{15FD0F37-5A56-4056-BCA7-5D0A345FD120}" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Button" />
+													</Property>
+													<Property Name="contentText">
+														<Value Value="close" />
+													</Property>
+												</Properties>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="wndChrome_WidgetWin_1" Key="{D766110C-DE21-4B85-92D8-20B2A1D83B13}" ExtendedFind="True">
+								<Image FileName="889798409" Left="0" Top="0" Right="438" Bottom="398" />
+								<TypeInfo Item0="{CC0FDB57-4CBE-4930-930B-63627F787704}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Chrome_WidgetWin_1" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageWwwApsbankComMtHelpCentreSig" Key="{C5609941-06CF-4BD0-8F9F-7BDA800C80AE}">
+								<TypeInfo Item0="{67725013-7DEA-4978-B9E9-8DC72B731304}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.apsbank.com.mt/help-centre/sign-up-to-myaps/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="linkAccept" Key="{1AEEC6F6-F1EE-4CDC-B32E-CCEBE71AB085}" ExtendedFind="True">
+										<Image FileName="801070505" Left="1443" Top="940" Right="1535" Bottom="985" />
+										<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Link" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="cn-accept-cookie" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="panelSignUpToMyaps" Key="{6D587556-C79B-4C8B-B890-D6E443E08A36}" ExtendedFind="True">
+										<Image FileName="790445009" Left="752" Top="480" Right="1802" Bottom="677" />
+										<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="5300690067006E002D0075007000200074006F0020006D0079004100500053000A0055007000640061007400650064003A002000310034002F00300039002F0032003000320032000A0048006F006D0065000A003E000A00480065006C0070002000430065006E007400720065000A003E000A005300690067006E002D0075007000200074006F0020006D007900410050005300" Type="7" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWwwApsbankComMtContactUs" Key="{C0E51193-D8D7-4902-8415-9C48DF75D8A7}">
+								<TypeInfo Item0="{67725013-7DEA-4978-B9E9-8DC72B731304}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.apsbank.com.mt/contact-us/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelFillInThisFormToSendUsA" Key="{EB66D80C-2FF5-4BA6-BE77-25E0D7B7F2EF}" ExtendedFind="True">
+										<Image FileName="89647322" Left="93" Top="537" Right="1803" Bottom="639" />
+										<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="contentText">
+												<Value Value="Fill in this form to send us a message or book an appointment at one of our branches" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWwwApsbankComMtTermsAndCondi" Key="{D01CE1D6-0C93-4283-B656-35583DE4C0C1}">
+								<TypeInfo Item0="{67725013-7DEA-4978-B9E9-8DC72B731304}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.apsbank.com.mt/terms-and-conditions/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelHome" Key="{2A02C181-AF92-44E2-AB12-62319719073F}">
+										<Image FileName="830584812" Left="70" Top="321" Right="1825" Bottom="3770" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="0" Type="0" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelHome" Key="{5BC447F6-13CA-4E22-8AE9-59B09C359FAD}" ExtendedFind="True">
+												<Image FileName="830584812" Left="93" Top="321" Right="1803" Bottom="3770" />
+												<Properties>
+													<Property Name="ObjectType">
+														<Value Value="Panel" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="panelHome" Key="{CBAB3470-94E3-48B7-9B4D-50872F092638}" ExtendedFind="True">
+														<Image FileName="830584812" Left="70" Top="388" Right="1825" Bottom="3769" />
+														<Properties>
+															<Property Name="ObjectType">
+																<Value Value="Panel" />
+															</Property>
+														</Properties>
+														<Children>
+															<Child Name="panelHome" Key="{FC01AA13-D6ED-4913-B82A-EF04570A4F26}" ExtendedFind="True">
+																<Image FileName="830584812" Left="70" Top="388" Right="1825" Bottom="3769" />
+																<Properties>
+																	<Property Name="ObjectType">
+																		<Value Value="Panel" />
+																	</Property>
+																</Properties>
+																<Children>
+																	<Child Name="panelHome" Key="{DB6B6223-206A-4768-8229-6484B0370C4B}" ExtendedFind="True">
+																		<Image FileName="830584812" Left="93" Top="352" Right="1803" Bottom="3769" />
+																		<Properties>
+																			<Property Name="ObjectType">
+																				<Value Value="Panel" />
+																			</Property>
+																		</Properties>
+																		<Children>
+																			<Child Name="panelHome" Key="{79D7E1BA-714A-4198-A1A0-23D82554A9AA}" ExtendedFind="True">
+																				<Image FileName="830584812" Left="93" Top="352" Right="1803" Bottom="3769" />
+																				<Properties>
+																					<Property Name="ObjectType">
+																						<Value Value="Panel" />
+																					</Property>
+																				</Properties>
+																				<Children>
+																					<Child Name="panelHome" Key="{7AD0D11A-7F6A-48A0-9B0D-5B7022B3A2BF}">
+																						<Image FileName="830584812" Left="93" Top="352" Right="1803" Bottom="439" />
+																						<Properties>
+																							<Property Name="ObjectType">
+																								<Value Value="Panel" />
+																							</Property>
+																							<Property Name="ObjectIdentifier">
+																								<Value Value="0" Type="0" />
+																							</Property>
+																						</Properties>
+																						<Children>
+																							<Child Name="panelHome" Key="{F3C008D5-682C-46DA-8875-6F7D60CAB599}" ExtendedFind="True">
+																								<Image FileName="830584812" Left="93" Top="352" Right="1803" Bottom="439" />
+																								<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+																								<Properties>
+																									<Property Name="ObjectType">
+																										<Value Value="Panel" />
+																									</Property>
+																									<Property Name="contentText">
+																										<Value Value="48006F006D0065000A003E000A005400650072006D007300200061006E006400200043006F006E0064006900740069006F006E007300" Type="7" />
+																									</Property>
+																								</Properties>
+																							</Child>
+																						</Children>
+																					</Child>
+																				</Children>
+																			</Child>
+																		</Children>
+																	</Child>
+																</Children>
+															</Child>
+														</Children>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageWwwApsbankComMt" Key="{018C8546-96D7-491D-B6F9-EFC75B0B1B00}">
+								<TypeInfo Item0="{67725013-7DEA-4978-B9E9-8DC72B731304}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.apsbank.com.mt/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="panelElFd3ad2b8" Key="{7B2609B4-5150-45EE-AEA4-4F82B0ED4C81}" ExtendedFind="True">
+										<Image FileName="-1078098305" Left="90" Top="216" Right="1850" Bottom="1043" />
+										<TypeInfo Item0="{8DFD6E36-5B30-4F79-B1DD-3950B661BCB2}" />
+										<Properties>
+											<Property Name="ObjectType">
+												<Value Value="Panel" />
+											</Property>
+											<Property Name="idStr">
+												<Value Value="el-fd3ad2b8" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="TrGUI" Key="{35660146-29CA-4089-8E6C-27C6CE078C64}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="TrGUI" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndTrGUI" Key="{0F7EA336-1277-4385-B08C-31C84282E8C7}">
+								<Image FileName="-23847351" Left="0" Top="0" Right="1132" Bottom="848" />
+								<TypeInfo Item0="{2E8F2043-84A1-4B26-A708-C20048E8CE07}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Qt5QWindowIcon" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="TrGUI" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="explorer" Key="{C41B2DBE-B742-4B73-A9CD-2ABFA88C0B00}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="explorer" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndShell_TrayWnd" Key="{D86546D8-2042-4F98-B1BD-2C0420713C9B}">
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Shell_TrayWnd" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="DesktopWindowXamlSource" Key="{BBD1C1D8-A8AD-4500-BD3D-CF707DBF92C9}">
+										<TypeInfo Item0="{3080E53D-E433-4894-A3D9-B6087B50F1F0}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Windows.UI.Composition.DesktopWindowContentBridge" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="DesktopWindowXamlSource" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+					<Child Name="Notepad" Key="{B99BE69D-FF59-4193-9310-FCD1062EC09D}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="Notepad" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{8F846860-057D-4369-81AA-FD505B580096}">
+								<Image FileName="-685894267" Left="0" Top="0" Right="814" Bottom="847" />
+								<TypeInfo Item0="{2E8F2043-84A1-4B26-A708-C20048E8CE07}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{69BE613C-F735-4400-A50D-49851C7E4113}">
+			<Child Name="BrowserWindow" Owner="{6627C339-7B94-4887-A139-25EAB6DBEA59}" />
+			<Child Name="pageApsBankMalta" Owner="{381010CD-6A6F-4636-AD6A-A7C8609FC1A9}">
+				<Child Name="panelAnytimeAnywhere" Owner="{4888BE3D-763E-417D-9C69-388C180A335D}">
+					<Child Name="panelAnytimeAnywhere" Owner="{C99CA336-7A88-45A0-8D7A-73BECFE9C3C6}">
+						<Child Name="panel1" Owner="{5142780A-035F-4523-B15D-8EEE78D3B5BF}">
+							<Child Name="panel" Owner="{880F53C8-3FDD-4E88-9D0E-2C010DAE19A9}" />
+						</Child>
+						<Child Name="panel2" Owner="{C290DD16-0E88-4A31-8121-D79372CDFEEA}">
+							<Child Name="panel" Owner="{D4C55757-EF11-43F4-A446-D38667A89173}" />
+						</Child>
+						<Child Name="panel3" Owner="{95D2888E-BB8D-4520-AED4-F7CE4FD14D61}">
+							<Child Name="panel" Owner="{6FD394AE-7640-4F94-9A81-7A7C6B90CD06}" />
+						</Child>
+					</Child>
+					<Child Name="button2" Owner="{D8FE6643-EE3B-43C6-9772-2FFC083A31C3}" />
+					<Child Name="button3" Owner="{AFE79B24-A7BD-4D22-827A-4D6B9C87096C}" />
+					<Child Name="button1" Owner="{19907E48-A64D-4844-822C-FB5FCFD619DD}" />
+					<Child Name="textnode123" Owner="{50817537-9E02-437A-B061-FD08B393EEE3}" />
+				</Child>
+				<Child Name="radiobuttonLoginradio" Owner="{DB0B27CA-D9BD-4C8E-BA90-C868AB098E47}" />
+				<Child Name="radiobuttonLoginradio2" Owner="{CCFE9718-8AB5-4DD4-BE13-6451E414FC08}" />
+				<Child Name="buttonSignUp" Owner="{20CFC8EA-A128-4933-9E4C-125922CF966C}" />
+				<Child Name="panelSignUp" Owner="{9FFB602D-366D-4725-9B96-A748F88EBF47}">
+					<Child Name="linkDetailsIdEuNewfrontierIbanki" Owner="{D51F05BA-79BB-452E-A525-AED28200F573}">
+						<Child Name="panel" Owner="{67052120-5C7A-4716-BF17-63EEDC4872C6}" />
+					</Child>
+					<Child Name="linkId1454207441" Owner="{C15D9137-BC6B-4AC9-8AAC-919E40DAFCB9}">
+						<Child Name="panel" Owner="{009F3022-72D2-4122-903B-77D43D85BDEA}" />
+					</Child>
+					<Child Name="panel" Owner="{A919A40B-82ED-4545-BB8A-1235E2E49B05}" />
+					<Child Name="linkNeedHelp" Owner="{034313BB-09B5-4D22-B432-AAFBBA0E3F37}" />
+					<Child Name="buttonNext" Owner="{743F4BB6-D9D5-4EEE-AD82-154EAAE5E14C}" />
+					<Child Name="textbox" Owner="{9C26E787-6BA1-4E71-B139-0B3DB5267611}" />
+					<Child Name="textbox2" Owner="{CF332444-7AB9-45AD-BC8E-537B549B5D50}" />
+					<Child Name="textbox3" Owner="{86C39666-7532-446E-BC09-D7FAD4C4543A}" />
+					<Child Name="buttonOk" Owner="{63CBC4C9-6F4E-4E25-AB25-DCDD155BCD92}" />
+					<Child Name="buttonClose" Owner="{999FC39C-18C2-4771-92F0-FBDC76CA6E84}" />
+				</Child>
+				<Child Name="buttonLogIn" Owner="{9940B9A5-2DC7-4AD6-8348-69F5EBEC9E06}" />
+				<Child Name="textbox" Owner="{31E25FBD-1CE0-421B-AE04-043D751BF5E5}" />
+				<Child Name="passwordbox" Owner="{6315669D-A9C2-4593-A534-CECD88AA1C1F}" />
+				<Child Name="buttonLogIn2" Owner="{C0753E91-A8D2-4202-B81A-6AF6D7EA97A2}" />
+				<Child Name="textbox2" Owner="{B260E227-85A8-4AB9-BCF0-6DD88F9C1C06}" />
+				<Child Name="panelStep1" Owner="{B6A9A755-BA6C-4B0D-9580-D86CD277A598}" />
+				<Child Name="linkDemo" Owner="{7195EB37-6AC5-475A-A3E9-F901064189AA}">
+					<Child Name="panel" Owner="{A61D9307-D9BC-41F0-8EDC-4D7D90A6D9A2}" />
+				</Child>
+				<Child Name="linkHelp" Owner="{5C1038B6-52AB-40FB-A47E-B9385E4EA6E6}">
+					<Child Name="panel" Owner="{F62C8090-DAFA-491E-AC5D-E108858BC778}" />
+					<Child Name="textnodeHelp" Owner="{F3FFA09D-1968-442E-A0B4-7B018663F305}" />
+				</Child>
+				<Child Name="panelAnytimeAnywhere2" Owner="{48295AC3-4042-43C5-9AD0-254720967BF6}">
+					<Child Name="panelAnytimeAnywhere" Owner="{3341B4C2-902C-43AF-9DAF-E6FD5EE316FA}">
+						<Child Name="panel1" Owner="{EE75D82D-0BB0-4ADC-80A1-CCFE0384B51B}">
+							<Child Name="panel" Owner="{6DB00215-6062-476B-BCE2-4F9D64919D8B}" />
+						</Child>
+						<Child Name="panel3" Owner="{134A688E-61F6-4FEC-83FA-A648CB619080}">
+							<Child Name="panel" Owner="{D5AB462B-BBBB-437C-9854-FB703AA4B04E}" />
+						</Child>
+						<Child Name="panel2" Owner="{714DB0D6-806D-46C9-B9AA-FC5872772734}">
+							<Child Name="panel" Owner="{4C50F3B7-BDAF-45F0-954B-8788584ACC5A}" />
+						</Child>
+					</Child>
+					<Child Name="button1" Owner="{FA678791-2E40-473E-89BD-39FC6F15F7B0}" />
+					<Child Name="button2" Owner="{282F65D5-A67A-4BD4-9B9B-E9F039BAB13D}" />
+					<Child Name="button3" Owner="{12CC137F-3E58-45B5-930A-1AA31D921764}" />
+				</Child>
+				<Child Name="linkBranches" Owner="{EF1F0B32-7ACF-458B-9B2E-5E56712CC15A}">
+					<Child Name="panel" Owner="{2C77D343-1683-471B-9441-030B4AD9971B}" />
+				</Child>
+				<Child Name="linkContact" Owner="{6AC718A1-2142-44DC-8A86-92CE624AA275}">
+					<Child Name="panel" Owner="{90C8F15F-3F5D-4A76-A97F-883D3559F075}" />
+				</Child>
+				<Child Name="linkTermsConditions" Owner="{D3E2DDA4-4BE6-4024-927C-78EFDCA7595E}" />
+				<Child Name="panelFooterLogin" Owner="{8689B3C3-1CDF-419C-B601-7CA70BBA9139}">
+					<Child Name="panel" Owner="{53172BFA-97F3-4F8D-975A-ED355F893450}" />
+					<Child Name="linkCopyright2018ApsBankPlc" Owner="{8BC96B9F-E1CA-4125-9E89-993470C36393}" />
+					<Child Name="linkCopyright2018ApsBankPlc2" Owner="{57BE760F-8C46-4E05-8130-617B87EF24C1}" />
+				</Child>
+				<Child Name="buttonSignUp2" Owner="{E2679224-CF8B-47BC-96E4-8F9B772BD525}" />
+				<Child Name="textbox3" Owner="{B93F0444-3DC8-4EEE-BA8C-41BB4E39C47F}" />
+				<Child Name="passwordbox2" Owner="{FCE1E3BC-27AF-4C36-A527-949FA12BAE99}" />
+				<Child Name="buttonLogIn3" Owner="{B1300841-1A65-43E6-84B3-FAE0381BF375}" />
+				<Child Name="radiobuttonLoginradio3" Owner="{3667C4BD-7DCC-4B26-ADD0-0B695F8F6B33}" />
+				<Child Name="radiobuttonLoginradio4" Owner="{3F545816-9B3F-4B73-9DDB-D3E7DB0B9F4E}" />
+				<Child Name="textbox4" Owner="{B6997317-935E-47FE-825A-5F8C613A0952}" />
+				<Child Name="panelStep12" Owner="{5C1835CB-EC56-4C07-BE06-F5D386285B99}" />
+			</Child>
+			<Child Name="wndChrome_WidgetWin_1" Owner="{D766110C-DE21-4B85-92D8-20B2A1D83B13}" />
+			<Child Name="pageWwwApsbankComMtHelpCentreSig" Owner="{C5609941-06CF-4BD0-8F9F-7BDA800C80AE}">
+				<Child Name="linkAccept" Owner="{1AEEC6F6-F1EE-4CDC-B32E-CCEBE71AB085}" />
+				<Child Name="panelSignUpToMyaps" Owner="{6D587556-C79B-4C8B-B890-D6E443E08A36}" />
+			</Child>
+			<Child Name="pageWwwApsbankComMtContactUs" Owner="{C0E51193-D8D7-4902-8415-9C48DF75D8A7}">
+				<Child Name="panelFillInThisFormToSendUsA" Owner="{EB66D80C-2FF5-4BA6-BE77-25E0D7B7F2EF}" />
+			</Child>
+			<Child Name="pageWwwApsbankComMtTermsAndCondi" Owner="{D01CE1D6-0C93-4283-B656-35583DE4C0C1}">
+				<Child Name="panelHome" Owner="{F3C008D5-682C-46DA-8875-6F7D60CAB599}" />
+			</Child>
+			<Child Name="pageWwwApsbankComMt" Owner="{018C8546-96D7-491D-B6F9-EFC75B0B1B00}">
+				<Child Name="panelElFd3ad2b8" Owner="{7B2609B4-5150-45EE-AEA4-4F82B0ED4C81}" />
+			</Child>
+		</Child>
+		<Child Name="TrGUI" Owner="{35660146-29CA-4089-8E6C-27C6CE078C64}">
+			<Child Name="wndTrGUI" Owner="{0F7EA336-1277-4385-B08C-31C84282E8C7}" />
+		</Child>
+		<Child Name="explorer" Owner="{C41B2DBE-B742-4B73-A9CD-2ABFA88C0B00}">
+			<Child Name="wndShell_TrayWnd" Owner="{D86546D8-2042-4F98-B1BD-2C0420713C9B}">
+				<Child Name="DesktopWindowXamlSource" Owner="{BBD1C1D8-A8AD-4500-BD3D-CF707DBF92C9}" />
+			</Child>
+		</Child>
+		<Child Name="Notepad" Owner="{B99BE69D-FF59-4193-9310-FCD1062EC09D}">
+			<Child Name="wndNotepad" Owner="{8F846860-057D-4369-81AA-FD505B580096}" />
+		</Child>
+	</LogicalNodes>
+</Root>

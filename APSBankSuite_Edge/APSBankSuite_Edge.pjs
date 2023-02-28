@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{D1F1B45E-F00B-4BD2-B8E5-F1FDE8167776}">
+	<children>
+		<child name="APSBankSuite_Edge" key="{AA4F8EFF-535C-46B6-9480-2DBD03116344}" path="APSBankSuite_Edge\APSBankSuite_Edge.mds" />
+	</children>
+	<testItems key="{8F023194-22DB-4260-BE13-6F132304033C}">
+		<children>
+			<testItem key="{AA4F8EFF-535C-46B6-9480-2DBD03116344}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{87AB8E9B-E652-44F7-A745-5F0F8A54B2DC}" />
+	<analysis key="{24AB61E5-F88F-47F3-B803-CBF922E0D6A7}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44983.8572414815"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="name" type="S" value="Script Test Log [Sign_In\Sign_In]"/>
+				<Prp name="start time" type="D" value="44983.8568907292"/>
+				<Prp name="details" type="S" value="{8A847A4F-FCF7-43D1-B14E-582A88B0B0D5}"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44983.857772037"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="2"/>
+				<Prp name="name" type="S" value="Need Help? [Script\Need_Help - Need_Help]"/>
+				<Prp name="start time" type="D" value="44983.8575486921"/>
+				<Prp name="details" type="S" value="{BAF6779F-0003-47A8-A4AA-0CB4D28724E4}"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44983.8575485417"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="1"/>
+				<Prp name="name" type="S" value="Mobile App Download [Script\Mobile_App_Download - Mobile_App_Download]"/>
+				<Prp name="start time" type="D" value="44983.8572415046"/>
+				<Prp name="details" type="S" value="{A44B2B32-7710-46C0-A896-7319185C6F07}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

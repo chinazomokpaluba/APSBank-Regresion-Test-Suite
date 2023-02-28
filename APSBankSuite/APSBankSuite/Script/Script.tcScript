@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Test_Script" key="{EEF0397E-7744-47E6-B5C4-1773340C641C}" path="Test_Script.js" />
+		<child name="Launch_URL" key="{00EEEC98-12A4-4505-91C0-197C30809506}" path="Launch_URL.js" />
+		<child name="Carousel_Navigation" key="{28584986-932E-462E-AE8E-83EA5DCAB66F}" path="Carousel_Navigation.js" />
+		<child name="Sign_Up" key="{720ED2CD-E1F0-4E68-AE6D-F62C8DFBDE53}" path="Sign_Up.js" />
+		<child name="Mobile_App_Download" key="{6425D479-1A3A-4B90-A146-3E6BF9CB5A31}" path="Mobile_App_Download.js" />
+		<child name="Need_Help" key="{30363EE8-6A7A-4F94-8458-457DC99A24FA}" path="Need_Help.js" />
+		<child name="LogIn" key="{5B260257-6AA6-47C7-A692-8CCE7CBD0856}" path="LogIn.js" />
+		<child name="UsernameandMobileApp" key="{CB63655B-B059-478B-803B-2D0616765F19}" path="UsernameandMobileApp.js" />
+		<child name="UsernameandPhysicalToken" key="{96978AC3-77B9-4980-A9AD-C085A6F8CCB2}" path="UsernameandPhysicalToken.js" />
+		<child name="LogIn_Guide" key="{AC5D4D5C-76AF-4494-B892-91DE3C9A0B8A}" path="LogIn_Guide.js" />
+		<child name="Demo" key="{11A5E515-DB5B-4B6D-BCB4-B7887A231866}" path="Demo.js" />
+		<child name="Help_" key="{87234D52-57B7-478C-8A67-FB25E16B3D03}" path="Help_.js" />
+		<child name="Branches" key="{C2CDCE96-5D91-4554-8D66-06D8C3DB70DC}" path="Branches.js" />
+		<child name="Contact" key="{3321D306-BDAF-478A-9D39-FA57940165D0}" path="Contact.js" />
+		<child name="Terms_and_Conditions" key="{A7844CB6-E260-4D4B-BDAE-E982FD6E5A8C}" path="Terms_and_Conditions.js" />
+		<child name="Copyright_2018" key="{1E9D1BBE-773A-4E45-BEBF-435D5A720773}" path="Copyright_2018.js" />
+	</children>
+</Root>

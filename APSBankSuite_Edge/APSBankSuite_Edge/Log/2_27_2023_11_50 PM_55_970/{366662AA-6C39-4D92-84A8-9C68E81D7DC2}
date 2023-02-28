@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row1">
+				<Prp name="name" type="S" value="Copyright_2018 [Script\Copyright_2018 - Copyright_2018]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44984.9977053472"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44984.9978610417"/>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="details" type="S" value="{CAE15D03-E339-4B2E-A314-F1B3DA9A4CF4}"/>
+			</Node>
+			<Node name="row0">
+				<Prp name="name" type="S" value="TermsandCondition [Script\TermsandCondition - TermsandCondition]"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="start time" type="D" value="44984.9975103588"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="end time" type="D" value="44984.9977049537"/>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="details" type="S" value="{EF008486-A6BF-4B5B-9C60-BC01A69B0337}"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

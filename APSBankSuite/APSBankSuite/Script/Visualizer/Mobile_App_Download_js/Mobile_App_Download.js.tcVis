@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{6425D479-1A3A-4B90-A146-3E6BF9CB5A31}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44984.8423726852" objectName="Aliases.browser.pageApsBankMalta.buttonSignUp2" objectLeft="1042" objectTop="558" objectRight="1183" objectBottom="616" clickPointX="1086" clickPointY="603" imageFileName="tcvi347646218316161.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44984.8424074074" objectName="Aliases.browser.pageApsBankMalta.panelSignUp.linkDetailsIdEuNewfrontierIbanki.panel" objectLeft="609" objectTop="411" objectRight="778" objectBottom="461" clickPointX="670" clickPointY="430" imageFileName="tcvi347649500316163.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44984.8424537037" objectName="Aliases.browser.pageApsBankMalta.panelSignUp.linkId1454207441.panel" objectLeft="803" objectTop="411" objectRight="972" objectBottom="461" clickPointX="876" clickPointY="440" imageFileName="tcvi347653500316165.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="44984.8425347222" objectName="Aliases.browser.pageApsBankMalta.panelSignUp.buttonClose" objectLeft="1054" objectTop="238" objectRight="1078" objectBottom="261" clickPointX="1067" clickPointY="246" imageFileName="tcvi347660468316167.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

@@ -1,0 +1,13 @@
+﻿function Contact()
+{
+  Browsers.Item(btChrome).Navigate("https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail");
+  let browser = Aliases.browser;
+  let page = browser.pageApsBankMalta;
+  let panel = page.panelAnytimeAnywhere2.panelAnytimeAnywhere.panel1.panel;
+  panel.Click(567, 230);
+  panel.Click(343, 773);
+  page.linkContact.panel.Click(21, 27);
+  page = browser.pageWwwApsbankComMtContactUs;
+  page.Wait();
+  page.panelFillInThisFormToSendUsA.Click(927, 5);
+}

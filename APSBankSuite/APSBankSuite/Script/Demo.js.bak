@@ -1,0 +1,9 @@
+﻿function Demo()
+{
+  Browsers.Item(btChrome).Navigate("https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail");
+  let page = Aliases.browser.pageApsBankMalta;
+  page.radiobuttonLoginradio.ClickButton();
+  page.panelAnytimeAnywhere.panelAnytimeAnywhere.panel3.panel.Click(400, 793);
+  page.linkDemo.panel.Click(23, 23);
+}
+

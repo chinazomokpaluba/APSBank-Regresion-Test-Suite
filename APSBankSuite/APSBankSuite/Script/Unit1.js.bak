@@ -1,0 +1,39 @@
+﻿function Test1()
+{
+  Browsers.Item(btChrome).Run("https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail");
+  let browser = Aliases.browser;
+  let browserWindow = browser.BrowserWindow;
+  browserWindow.Maximize();
+  let page = browser.pageApsBankMalta;
+  let panel = page.panelAnytimeAnywhere;
+  panel.panelAnytimeAnywhere.panel1.panel.Drag(681, 393, -399, -110);
+  panel.button2.ClickButton();
+  panel.button3.ClickButton();
+  panel.button1.ClickButton();
+  let radioButton = page.radiobuttonLoginradio;
+  radioButton.ClickButton();
+  radioButton.ClickButton();
+  radioButton = page.radiobuttonLoginradio2;
+  radioButton.ClickButton();
+  radioButton.ClickButton();
+  radioButton.ClickButton();
+  radioButton.ClickButton();
+  browserWindow.Click(1115, 37);
+  browserWindow.Click(1043, 32);
+  browserWindow.Click(1033, 43);
+  browserWindow.Click(1179, 11);
+  let wndChrome_WidgetWin_1 = Aliases.Teams.wndChrome_WidgetWin_1;
+  wndChrome_WidgetWin_1.Click(733, 0);
+  browserWindow.Click(1151, 34);
+  browserWindow.Click(1046, 40);
+  browserWindow.Click(1030, 37);
+  browserWindow.Click(1005, 23);
+  browserWindow.Click(1006, 24);
+  browserWindow.Click(1000, 11);
+  wndChrome_WidgetWin_1.Click(554, 0);
+  browserWindow.Click(998, 40);
+  wndChrome_WidgetWin_1 = browser.wndChrome_WidgetWin_1;
+  wndChrome_WidgetWin_1.Click(163, 45);
+  wndChrome_WidgetWin_1.Click(115, 54);
+  browserWindow.Keys("c[BS]chinazomokpaluba07061180718chinazomokp[BS][BS][BS][BS]");
+}

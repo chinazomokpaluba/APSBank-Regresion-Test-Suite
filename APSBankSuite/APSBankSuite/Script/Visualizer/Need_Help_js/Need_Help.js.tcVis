@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{30363EE8-6A7A-4F94-8458-457DC99A24FA}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44984.871412037" objectName="Aliases.browser.pageApsBankMalta.buttonSignUp2" objectLeft="1042" objectTop="372" objectRight="1183" objectBottom="430" clickPointX="1119" clickPointY="419" imageFileName="tcvi350155484316160.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44984.8714351852" objectName="Aliases.browser.pageApsBankMalta.panelSignUp.linkNeedHelp" objectLeft="970" objectTop="675" objectRight="1061" objectBottom="695" clickPointX="1032" clickPointY="684" imageFileName="tcvi350157125316161.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

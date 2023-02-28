@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test15">
+						<Node name="warnings"/>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;linkCopyright2018ApsBankPlc2&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44983.8621489236"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBDADUAQQA1AEEAOQBDADkALQBGADUAQQAwAC0ANABFAEEANAAtAEIAOAA4AEEALQA0AEYAMgBCADUAMwAzADEAMABDADMARQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="22224"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Copyright 2018 - APS Bank plc"/>
+						<Prp name="durationwithoutchildren" type="I" value="22224"/>
+					</Node>
+					<Node name="test5">
+						<Node name="warnings">
+							<Node name="warning2">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.8592102546"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA2ADQANgA5ADAAMwAwADIALQBFAEUANwBBAC0ANAA5ADIAOQAtAEIAMwAwAEEALQAwAEEAMgBCADEARAA2AEIAMAA2ADkAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="41554"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="name" type="S" value=" Username and Mobile App"/>
+						<Prp name="durationwithoutchildren" type="I" value="41554"/>
+					</Node>
+					<Node name="test1">
+						<Node name="warnings">
+							<Node name="warning2">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.855709213"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADgAOAA4ADAARAAzADkALQA0AEQANgA4AC0ANABCADAARAAtADkARAAyAEEALQA5ADAARgA2ADYARQA2ADkAOQBDADYAMwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="43061"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="name" type="S" value="Slide ViewImg"/>
+						<Prp name="durationwithoutchildren" type="I" value="43061"/>
+					</Node>
+					<Node name="test10">
+						<Node name="warnings">
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.860441331"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFAEIANQAzADYAMgBCADQALQAzADYAMQAwAC0ANAAzADMAOAAtADkARQBCADMALQBGADkARQA3AEYAMQBEAEUARABBAEIAOQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="42805"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="name" type="S" value="Demo"/>
+						<Prp name="durationwithoutchildren" type="I" value="42805"/>
+					</Node>
+					<Node name="test12">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="There may be an error (or errors) caused by test self-healing."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;panel&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44983.8612912847"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA5ADYAMgA4AEMAMQBDADIALQBBADIAOQAwAC0ANABEAEIAOAAtAEEANQA3AEMALQBEADIAMABCAEMAQgA0ADkANAAzADYAQQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="17867"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Branches"/>
+						<Prp name="durationwithoutchildren" type="I" value="17867"/>
+					</Node>
+					<Node name="test4">
+						<Node name="warnings">
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The child test Mobile App Download finished with the Warning status"/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The child test Need Help? failed"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44983.8568907292"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADYARQBDAEYANgBEAEYALQA3ADUANQAzAC0ANAA4ADQAQwAtAEEAMwA2AEQALQAxADQAQgA4AEMARgA3ADcAMgBFADgANAB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="76159"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Sign Up"/>
+						<Prp name="durationwithoutchildren" type="I" value="30334"/>
+					</Node>
+					<Node name="test6">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="There may be an error (or errors) caused by test self-healing."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The object &quot;radiobuttonLoginradio&quot; does not exist."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44983.8596913889"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBAEIAMAAwADcAOABFADUALQBGAEQANgA3AC0ANABFAEYAMwAtAEIAMAA1AEQALQAzADQAQwA2AEYAMwA2ADIAOAA4AEQAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="22333"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value=" Username and Physical Token&#xA;"/>
+						<Prp name="durationwithoutchildren" type="I" value="22333"/>
+					</Node>
+					<Node name="test9">
+						<Node name="warnings">
+							<Node name="warning2">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning3">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The child test Log In failed"/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The child test Sign Up failed"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44983.8562078241"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEQAOQAxADIANwAxADMALQA2AEEARQBCAC0ANAAzADkAOAAtAEEAMABEADEALQA2ADMANwBFADkARQA3AEYANAA3ADIARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="365746"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="LogIn Options"/>
+						<Prp name="durationwithoutchildren" type="I" value="59052"/>
+					</Node>
+					<Node name="test13">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.8614981482"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBFADQAQwA3ADMAQQA0ADAALQBBAEYANwAzAC0ANAA4ADcAQQAtADgAQQA0ADEALQA2ADgAQgAxADcAMQAxADMANwBDADMAOAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="17008"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="Contact"/>
+						<Prp name="durationwithoutchildren" type="I" value="17008"/>
+					</Node>
+					<Node name="test3">
+						<Node name="warnings">
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="There may be an error (or errors) caused by test self-healing."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The test run has stopped because your test project is configured to stop on errors."/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The text 'myAPS' was not found."/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44983.8575486921"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBCAEEARgA2ADcANwA5AEYALQAwADAAMAAzAC0ANAA3AEEAOAAtAEEANABBAEEALQAwAEMAQgA0AEQAMgA4ADcAMgA0AEUANAB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="19297"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Need Help?"/>
+						<Prp name="durationwithoutchildren" type="I" value="19297"/>
+					</Node>
+					<Node name="test14">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.8616952315"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADkAQwA5ADEANABCADQALQAwADEAQwA3AC0ANAA5ADkANAAtADgARgBBADkALQBDAEMARABBAEEANgAyAEQANwA2ADkAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="39189"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="Terms &amp; Conditions"/>
+						<Prp name="durationwithoutchildren" type="I" value="39189"/>
+					</Node>
+					<Node name="test11">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.8609371065"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEADIAMgAyADEARgA3ADUALQAwADMAQQBCAC0ANAAwADIAMQAtADkANABDADYALQA5ADYAQwBCADYANgBGAEYAMQA1AEIARgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="30580"/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="name" type="S" value="Help"/>
+						<Prp name="durationwithoutchildren" type="I" value="30580"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings">
+							<Node name="warning2">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.8552087963"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGADIARgA5AEEANQA1AEQALQBBADcANwBEAC0ANABFADQARgAtAEIAQQBFAEUALQBBADUAMQBBADAARgA0AEIAMwAwADIAMQB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="43219"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="name" type="S" value="Slide ViewImg"/>
+						<Prp name="durationwithoutchildren" type="I" value="43219"/>
+					</Node>
+					<Node name="test16">
+						<Node name="warnings">
+							<Node name="warning2">
+								<Prp name="msg" type="S" value="The child test Slide ViewImg finished with the Warning status"/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The browser is already running."/>
+							</Node>
+							<Node name="warning3">
+								<Prp name="msg" type="S" value="The child test Demo finished with the Warning status"/>
+							</Node>
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The child test Slide ViewImg finished with the Warning status"/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error1">
+								<Prp name="msg" type="S" value="The child test Branches failed"/>
+							</Node>
+							<Node name="error2">
+								<Prp name="msg" type="S" value="The child test Copyright 2018 - APS Bank plc failed"/>
+							</Node>
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The child test LogIn Options failed"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44983.8550734954"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBGAEYAOQBCAEMAMgAyAEMALQBCADIANwBCAC0ANAA0ADcAQwAtAEIAQQA5ADAALQA1ADUAMAA5AEYAQQA3AEUARQAzADcAMAB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="633551"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Lounch URL"/>
+						<Prp name="durationwithoutchildren" type="I" value="11852"/>
+					</Node>
+					<Node name="test7">
+						<Node name="warnings">
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.8599500347"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA1ADAANgBDADgANABGADAALQBCADAAQgBEAC0ANAA0AEUAQgAtAEIAOABCADkALQAyADQAOABFADgANgA5ADYANQBCAEYAMgB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="42379"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="name" type="S" value="LogIn Guide ?"/>
+						<Prp name="durationwithoutchildren" type="I" value="42379"/>
+					</Node>
+					<Node name="test2">
+						<Node name="warnings">
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors"/>
+						<Prp name="starttime" type="D" value="44983.8572415046"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBBADQANABCADIAQgAzADIALQA3ADcAMQAwAC0ANAA2AEMAMAAtAEEAOAA5ADYALQA3ADMAMQA5ADEAOAA1AEMANgBGADAANwB9AC8AewAwADAAMAAwADAAMAAwADAALQAwADAAMAAwAC0AMAAwADAAMAAtADAAMAAwADAALQAwADAAMAAwADAAMAAwADAAMAAwADAAMAB9AC8AZQBtAHAAdAB5AC8AZQBtAHAAdAB5AA=="/>
+						<Prp name="duration" type="I" value="26528"/>
+						<Prp name="status" type="I" value="1"/>
+						<Prp name="name" type="S" value="Mobile App Download"/>
+						<Prp name="durationwithoutchildren" type="I" value="26528"/>
+					</Node>
+					<Node name="test8">
+						<Node name="warnings">
+							<Node name="warning3">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning4">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning1">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning0">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+							<Node name="warning2">
+								<Prp name="msg" type="S" value="The &quot;panelAnytimeAnywhere&quot; object was replaced with a similar object."/>
+							</Node>
+						</Node>
+						<Node name="errors">
+							<Node name="error0">
+								<Prp name="msg" type="S" value="The child test  Username and Physical Token&#xA; failed"/>
+							</Node>
+						</Node>
+						<Prp name="starttime" type="D" value="44983.8577725"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewBEAEQAOQAxADIANwAxADMALQA2AEEARQBCAC0ANAAzADkAOAAtAEEAMABEADEALQA2ADMANwBFADkARQA3AEYANAA3ADIARgB9AC8AewAzAEMAMgBEADAANQA1AEYALQBCAEIAMAA0AC0ANAA2ADAAMgAtAEIANwBCAEQALQAxADIAQQA1AEIANwAzAEYARQBFADcAQQB9AC8AGhHL3v86Z0CLViaRMGjlQwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="duration" type="I" value="230535"/>
+						<Prp name="status" type="I" value="2"/>
+						<Prp name="name" type="S" value="Log In"/>
+						<Prp name="durationwithoutchildren" type="I" value="124269"/>
+					</Node>
+				</Node>
+				<Prp name="starttime" type="D" value="44983.8550734954"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="6"/>
+				<Prp name="duration" type="I" value="633551"/>
+				<Prp name="name" type="S" value="APSBankSuite_Chrome"/>
+				<Prp name="failedtests" type="I" value="8"/>
+			</Node>
+		</Node>
+		<Prp name="starttime" type="D" value="44983.8550618518"/>
+		<Prp name="name" type="S" value="APSBankTestSuite"/>
+		<Prp name="executionstatus" type="I" value="2"/>
+		<Prp name="host" type="S" value="DIGITAL-L1223"/>
+		<Prp name="stop" type="D" value="44983.8624085301"/>
+		<Prp name="tests" type="I" value="17"/>
+		<Prp name="warningtests" type="I" value="6"/>
+		<Prp name="user" type="S" value="P8516"/>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="failedtests" type="I" value="8"/>
+		<Prp name="key" type="S" value="{4B41F6DB-17F4-421F-BDAA-1C67E7B4DE62}"/>
+		<Prp name="testname" type="S" value="APSBankSuite_Chrome"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+	</Node>
+</Nodes>

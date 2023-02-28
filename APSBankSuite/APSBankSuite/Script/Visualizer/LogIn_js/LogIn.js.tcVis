@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{5B260257-6AA6-47C7-A692-8CCE7CBD0856}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="44984.8772453704" objectName="Aliases.browser.pageApsBankMalta.textbox3" objectLeft="1042" objectTop="403" objectRight="1355" objectBottom="471" clickPointX="1091" clickPointY="435" imageFileName="tcvi350659156202000.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="44984.8772569444" objectName="Aliases.browser.pageApsBankMalta.passwordbox2" objectLeft="1042" objectTop="520" objectRight="1355" objectBottom="588" clickPointX="1100" clickPointY="558" imageFileName="tcvi350660265202001.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="44984.8772685185" objectName="Aliases.browser.pageApsBankMalta.buttonLogIn3" objectLeft="1212" objectTop="683" objectRight="1353" objectBottom="741" clickPointX="1274" clickPointY="709" imageFileName="tcvi350661562202002.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="44984.8773148148" objectName="Aliases.browser.pageApsBankMalta.panelSignUp.buttonOk" objectLeft="1070" objectTop="494" objectRight="1144" objectBottom="545" clickPointX="1097" clickPointY="515" imageFileName="tcvi350665328202004.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

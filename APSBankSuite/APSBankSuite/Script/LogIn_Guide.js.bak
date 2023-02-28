@@ -1,0 +1,6 @@
+﻿function LogIn_Guide()
+{
+  Browsers.Item(btChrome).Navigate("https://ebank.apsbank.com.mt/Omni/Retail/home/login?r=%2fOmni%2fRetail");
+  Aliases.browser.pageApsBankMalta.radiobuttonLoginradio2.ClickButton();
+  NameMapping.Sys.browser.pageApsBankMalta.panelRenderWrapper.panelPagehost.panelAnytimeAnywhere.panelAnytimeAnywhere.panelZone2.panelLogInUsing.panelWidget.panelLogInUsing.panelLogInUsing.panelLogInUsing.panelLogInUsing.panelPanelusernameotp.Click(239, 97);
+}
